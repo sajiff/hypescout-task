@@ -40,7 +40,7 @@ function Navbar({ theme, settheme }) {
             <li>
               <div
                 className={
-                  window.location.pathname === "/"
+                  window.location.pathname === "/hypescout-task"
                     ? "nav-menu-item-active"
                     : null
                 }
