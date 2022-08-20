@@ -15,6 +15,7 @@ import {
 } from "@mui/material";
 import Menu from "@mui/material/Menu";
 import React, { useState } from "react";
+import "./SearchBar.css";
 
 const SearchBar = ({ searchField, setsearchField, theme }) => {
   const [anchorEl, setAnchorEl] = useState(null);

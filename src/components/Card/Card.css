@@ -1,0 +1,108 @@
+/* cards section */
+.card-container {
+  display: grid;
+  grid-template-columns: var(--left-right-margin-desktop) 1fr var(
+      --left-right-margin-desktop
+    );
+}
+
+.cards-section {
+  grid-column: 2/3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.card-main-container {
+  width: 376px;
+  height: 475px;
+  background: var(--secondaryBgColor);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icons {
+  color: var(--card-icons);
+}
+
+.card-main-container:hover {
+  box-shadow: 0px 0px 72px 0px rgba(145, 158, 171, 0.24);
+  border: 1px solid #637381;
+}
+
+/* card component CSS */
+.card-profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+.card-location-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-name-container span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.card-location-container span {
+  color: var(--secondaryTextColor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card-joined-on-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-joined-on-container span {
+  color: var(--secondaryTextColor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card-socials-container {
+  display: flex;
+  gap: 25px;
+}
+
+.card-statistics-container {
+  display: flex;
+}
+
+.card-statistics-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 0.5px dashed #637381;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+}
+.card-statistics-box span {
+  color: var(--secondaryTextColor);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card-statistics-count {
+  color: var(--card-statistics-count) !important;
+  font-weight: 700 !important;
+}

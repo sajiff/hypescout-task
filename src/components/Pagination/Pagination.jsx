@@ -2,7 +2,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import ReactPaginate from "react-paginate";
-
+import "./Pagination.css";
 const Pagination = () => {
   return (
     <div className="pagination-container">

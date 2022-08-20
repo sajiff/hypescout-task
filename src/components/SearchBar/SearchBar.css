@@ -1,0 +1,193 @@
+/* search bar main container */
+.search-bar-main-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: var(--left-right-margin-desktop) 1fr var(
+      --left-right-margin-desktop
+    );
+  align-items: center;
+}
+
+/* search box */
+.search-bar-box {
+  display: flex;
+  flex-direction: row;
+  grid-column: 2/3;
+  width: auto;
+  background-color: var(--secondaryBgColor);
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px 0px 25px;
+  gap: 10px;
+}
+
+.search-bar-profile-count p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.search-bar-input-box {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  box-sizing: border-box;
+  background-color: var(--searchBox);
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  border-color: var(--border);
+}
+
+.search-bar-input {
+  background-color: transparent;
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  box-shadow: transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out,
+    0.1s padding ease-in-out;
+  -webkit-appearance: none;
+  color: var(--mainTextColor);
+}
+
+.search-bar-input-icon {
+  padding-right: 15px;
+}
+.search-bar-input-icon path {
+  color: var(--secondaryTextColor);
+}
+
+/* search bar advance filter */
+
+.search-bar-advance-filter-container {
+  display: flex;
+  width: 163px;
+  height: 48px;
+  justify-content: space-around;
+  align-items: center;
+  background: #564fb1;
+  border-radius: 4px;
+  padding: 0 8px 0 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-bar-advance-filter-container p {
+  color: white;
+}
+.search-bar-advance-filter-icon path {
+  color: white;
+}
+
+.search-bar-advance-filter-popup-container {
+  width: 300px;
+  padding-bottom: 8px;
+  background: var(--secondaryBgColor);
+  box-shadow: 0px 8px 80px -4px rgba(42, 44, 52, 0.25);
+  border-radius: 8px;
+}
+
+.search-bar-advance-filter-popup-section {
+  padding: 0 20px 0 20px;
+}
+
+.search-bar-advance-filter-popup-section-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-bar-advance-filter-popup-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  width: 68px;
+  height: 38px;
+  /* Secondary/02 Main */
+  border: none;
+  background: #564fb1;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background: black;
+}
+
+.reset-btn p {
+  color: var(--secondaryTextColor);
+}
+.divider {
+  height: 1px;
+  background-color: var(--border);
+  border: none;
+}
+
+.search-bar-advance-filter-popup-selectBox {
+  width: 100%;
+  background-color: var(--mainBgColor);
+}
+
+.selectBox-icon {
+  margin-right: 20px;
+}
+
+.selectBox-icon path {
+  color: var(--secondaryTextColor);
+}
+
+.selectBox-placeholder {
+  color: var(--secondaryTextColor);
+}
+
+.selectBox-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #cdcddd;
+}
+
+.MuiSlider-thumb {
+  color: #564fb1;
+}
+
+.MuiSlider-rail {
+  color: white;
+  opacity: 1 !important;
+}
+
+.MuiSlider-track {
+  color: #564fb1;
+}
+
+.css-yafthl-MuiSlider-markLabel {
+  color: var(--secondaryTextColor) !important;
+  font-size: 0.7rem !important;
+}
+.css-1eoe787-MuiSlider-markLabel {
+  color: var(--secondaryTextColor) !important;
+  font-size: 0.7rem !important;
+}
+.MuiSlider-valueLabelOpen {
+  background-color: #564fb1 !important;
+}
+
+.MuiSlider-mark {
+  color: #564fb1;
+}
+
+.radiuButton span {
+  color: #564fb1 !important ;
+}

@@ -9,6 +9,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import "./Card.css";
 
 const Card = ({ data }) => {
   return (

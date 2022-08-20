@@ -8,8 +8,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Navbar.css";
 
 function Navbar({ theme, settheme }) {
   const [anchorEl, setAnchorEl] = useState(null);

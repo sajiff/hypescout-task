@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Card from "./components/Card";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Pagination from "./components/Pagination";
-import SearchBar from "./components/SearchBar";
+import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Pagination from "./components/Pagination/Pagination";
+import SearchBar from "./components/SearchBar/SearchBar";
 import { data } from "./data";
 
 function App() {
