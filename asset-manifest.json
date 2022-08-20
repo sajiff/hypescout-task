@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hypescout-task/static/css/main.716375e3.css",
-    "main.js": "/hypescout-task/static/js/main.37a9e140.js",
+    "main.css": "/hypescout-task/static/css/main.d03dfb74.css",
+    "main.js": "/hypescout-task/static/js/main.baf60c11.js",
     "index.html": "/hypescout-task/index.html",
-    "main.716375e3.css.map": "/hypescout-task/static/css/main.716375e3.css.map",
-    "main.37a9e140.js.map": "/hypescout-task/static/js/main.37a9e140.js.map"
+    "main.d03dfb74.css.map": "/hypescout-task/static/css/main.d03dfb74.css.map",
+    "main.baf60c11.js.map": "/hypescout-task/static/js/main.baf60c11.js.map"
   },
   "entrypoints": [
-    "static/css/main.716375e3.css",
-    "static/js/main.37a9e140.js"
+    "static/css/main.d03dfb74.css",
+    "static/js/main.baf60c11.js"
   ]
 }
