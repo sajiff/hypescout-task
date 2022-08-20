@@ -38,46 +38,22 @@ function Navbar({ theme, settheme }) {
         <div className="nav-menu-items">
           <ul>
             <li>
-              <div
-                className={
-                  window.location.pathname === "/hypescout-task"
-                    ? "nav-menu-item-active"
-                    : null
-                }
-              >
+              <div className="nav-menu-item-active">
                 <a href="/">Dashboard</a>
               </div>
             </li>
             <li>
-              <div
-                className={
-                  window.location.pathname === "/about"
-                    ? "nav-menu-item-active"
-                    : null
-                }
-              >
+              <div>
                 <a href="/about">Campaign</a>
               </div>
             </li>
             <li>
-              <div
-                className={
-                  window.location.pathname === "/hypesocial"
-                    ? "nav-menu-item-active"
-                    : null
-                }
-              >
+              <div>
                 <a href="/hypesocial">Hypesocial</a>
               </div>
             </li>
             <li>
-              <div
-                className={
-                  window.location.pathname === "/insights"
-                    ? "nav-menu-item-active"
-                    : null
-                }
-              >
+              <div>
                 <a href="/insights">Insights</a>
               </div>
             </li>
