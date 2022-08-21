@@ -68,3 +68,11 @@
 .pagination-icon-right {
   margin-left: 10px;
 }
+
+@media (max-width: 998px) {
+  .pagination-container {
+    grid-template-columns: var(--left-right-margin-mobile) 1fr var(
+        --left-right-margin-mobile
+      );
+  }
+}

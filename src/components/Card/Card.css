@@ -106,3 +106,15 @@
   color: var(--card-statistics-count) !important;
   font-weight: 700 !important;
 }
+
+@media (max-width: 998px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: var(--left-right-margin-mobile) 1fr var(
+        --left-right-margin-mobile
+      );
+  }
+  .card-main-container {
+    width: 100%;
+  }
+}

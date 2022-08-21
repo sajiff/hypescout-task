@@ -101,3 +101,33 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+
+@media (max-width: 998px) {
+  .nav-main-container {
+    grid-template-columns: var(--left-right-margin-mobile) 3fr 3fr var(
+        --left-right-margin-mobile
+      );
+    grid-column: 2/3;
+  }
+  .nav-right-side-items {
+    grid-column: 3/4;
+  }
+
+  .nav-right-side-items ul {
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0;
+  }
+
+  .nav-name-profile-pic p {
+    display: none;
+  }
+
+  .nav-menu-items {
+    display: none;
+  }
+
+  .nav-hamburger-menu {
+    display: inline;
+  }
+}

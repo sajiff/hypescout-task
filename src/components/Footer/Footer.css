@@ -73,3 +73,48 @@
   align-items: center;
   gap: 20px;
 }
+
+@media (max-width: 998px) {
+  .footer-container {
+    grid-template-columns: var(--left-right-margin-mobile) 1fr var(
+        --left-right-margin-mobile
+      );
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .footer-second-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-description {
+    text-align: center;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-company {
+    grid-column: 1/2;
+  }
+
+  .footer-influencer {
+    grid-column: 2/3;
+  }
+
+  .footer-advertiser {
+    grid-column: 2/3;
+  }
+
+  .footer-third-section {
+    flex-direction: column-reverse;
+  }
+}
